@@ -1,15 +1,14 @@
 
 # Team Details
 ## Team leader:
-Name: Amit Kumar Singh
-UID: 21BCS11618
-Contact No.- +91 7061186192
+Name: Shashank Kumar
+UID: 21BCS11754
+
 ## Team members:
-Name: Ansh Sharma
-UID: 21BCS11507
-Contact No.- +91 7011378053 <br/>
-Name: Sanjana Arora
-UID: 21BCS3318
-Contact No.- +91 8949037151
-## Screeshot
-![Tourest Desktop Demo](./Screenshort.png "Desktop Demo")
+Name: Aditya Bansal
+UID: 21BCS11682
+ <br/>
+Name: Sanidhya Prakash
+UID: 21BCS11746
+
+
