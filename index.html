@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Masters</title>
+    <title>Travel Man</title>
     <link rel="icon" href="./assets/files/logo.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
@@ -47,47 +47,33 @@
                 </form>
             </nav>
 
-            <div class="title">
-                <h1>Trip Masters</h1>
-                <p>Plan your trip with us and travel around the world with the most affordable packages!</p>
-
-                <div class="wrapper">
-                    <form action="#">
-                        <div class="h5 font-weight-bold text-center mb-3">Search your Destination</div>
-                        <div class="destination">
-                            <label for="city">Enter your destination</label>
-                        </div>
-                        <div class="form-group ">
-                            <input type="text" class="form-control" placeholder="Enter Your Name">
-                        </div>
-                        <div class="destination">
-                            <label for="city">Enter your date</label>
+            <div class="search-section">
+                <h1 class="site-title">Welcome to Travel Man</h1>
+                <p class="tagline">Plan your trip with us and travel around the world with the most affordable packages!</p>
+            
+                <div class="search-wrapper">
+                    <h2 class="search-title">Find Your Perfect Destination</h2>
+                    <form class="search-form" action="#">
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <input type="text" id="destination" class="form-control" placeholder="Enter Destination">
                         </div>
                         <div class="form-group">
-                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" class="form-control">
+                        </div>
+                        <div class="form-group price-group">
+                            <label for="price-range">Max Price: <span id="price-value">2500</span></label>
+                            <input type="range" id="price-range" min="0" max="10000" value="2500">
                         </div>
                         <div class="form-group">
-                            <div class="lable_total flex">
-                                <label class="destination" for="price">Max Price : <span id="result">2500</span>
-                                </label>
-                            </div>
-                            <input id="mySlider" type="range" min="0" max="10000" value="2500">
-
-                            <script>
-                                mySlider.oninput = showSliderValue;
-                                function showSliderValue() {
-                                    result.innerText = this.value;
-                                }
-                            </script>
+                            <button type="submit" class="search-btn">Search Now</button>
                         </div>
                     </form>
                 </div>
-
-                <a href="./booking.html" class="button">
-                    <span class="material-symbols-outlined">
-                        how_to_reg
-                    </span>
-                </a>
+            </div>
+            
+            
             </div>
         </div>
     </div>
@@ -664,41 +650,85 @@
             </form>
         </div>
     </section>
-
+    
+    <section class="map-section">
+        <div class="map-container">
+            <h2>Discover Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d132936.43169351062!2d76.13708989726564!3d10.004001700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d460437c265%3A0xb6659e2fd8e3e33c!2sTravel%20Trip%20India!5e1!3m2!1sen!2sin!4v1725293724913!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    
+    
+    <section class="special-offers">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <div class="offer-box">
+                <img src="./assets/img/box22.jpeg" alt="Offer 1">
+                <h4>50% Off on Bali Packages</h4>
+                <p>Book now and get 50% off on our exclusive Bali travel packages. Limited time offer!</p>
+                <a href="./offers.html#bali">Grab the Offer</a>
+            </div>
+            <div class="offer-box">
+                <img src="./assets/img/box11.png" alt="Offer 2">
+                <h4>Free E-Visa with Egypt Packages</h4>
+                <p>Travel to Egypt hassle-free with our free E-Visa offer on all Egypt travel packages.</p>
+                <a href="./offers.html#egypt">Grab the Offer</a>
+            </div>
+            <div class="offer-box">
+                <img src="./assets/img/box.jpeg" alt="Offer 3">
+                <h4>25% Off on European Tours</h4>
+                <p>Explore Europe like never before with our 25% discount on all European tour packages.</p>
+                <a href="./offers.html#europe">Grab the Offer</a>
+            </div>
+        </div>
+    </section>
+    
+  
+    
     <!-- Footer -->
 
     <section class="footer">
-        <div class="foot">
+        <div class="footer-container">
             <div class="footer-content">
-
-                <div class="footlinks">
+                <div class="footer-column">
                     <h4>Quick Links</h4>
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="./booking.html">Register</a></li>
                         <li><a href="./info.html">About Us</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-
-                <div class="footlinks">
-                    <h4>Connect</h4>
-                    <div class="social">
-                        <a href="https://www.facebook.com/profile.php?id=100007787415175" target="_blank"><i
-                                class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+    
+                <div class="footer-column">
+                    <h4>Connect with Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100007787415175" target="_blank" aria-label="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Twitter">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
                     </div>
                 </div>
-
+            </div>
+    
+            <div class="footer-bottom">
+                <p>© 2024 Trip Masters. All Rights Reserved.</p>
             </div>
         </div>
-
-        <div class="end">
-            <p>Copyright © 2024 Trip Masters All Rights Reserved.<br>Website developed by: Owners</p>
-        </div>
     </section>
+    
     <SCRIPT type="text/javascript">
         function JavaBlink() {
             var blinks = document.getElementsByTagName('JavaBlink');
