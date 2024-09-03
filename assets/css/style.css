@@ -436,74 +436,74 @@ color: black;
 /* Newsletter Section Styles */
 /* Modern Newsletter Section Styles */
 .newsletter {
-  background-color: #1e1e1e; /* Dark background for contrast */
-  color: #ffffff; /* White text for readability */
-  padding: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 12px;
-  margin: 50px auto;
-  max-width: 1200px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #1e1e1e; /* Dark background for contrast */
+    color: #ffffff; /* White text for readability */
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    margin: 50px auto;
+    max-width: 1200px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .newstext h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  color: #ff6f00; /* Orange text for emphasis */
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #ff6f00; /* Orange text for emphasis */
 }
 
 .newstext p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #dcdcdc; /* Light gray for softer contrast */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dcdcdc; /* Light gray for softer contrast */
 }
 
 .send form {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .send input[type="email"] {
-  padding: 15px 25px;
-  font-size: 16px;
-  border: none;
-  border-radius: 30px 0 0 30px;
-  outline: none;
-  width: 300px;
-  background-color: #333333; /* Dark input background */
-  color: #ffffff; /* White text */
-  transition: background-color 0.3s ease;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    width: 300px;
+    background-color: #333333; /* Dark input background */
+    color: #ffffff; /* White text */
+    transition: background-color 0.3s ease;
 }
 
 .send input[type="email"]::placeholder {
-  color: #b0b0b0; /* Placeholder text in light gray */
+    color: #b0b0b0; /* Placeholder text in light gray */
 }
 
 .send input[type="email"]:focus {
-  background-color: #444444; /* Slightly lighter background on focus */
+    background-color: #444444; /* Slightly lighter background on focus */
 }
 
 .send input[type="submit"] {
-  padding: 15px 25px;
-  font-size: 16px;
-  background-color: #ff6f00; /* Orange background for CTA */
-  color: #ffffff;
-  border: none;
-  border-radius: 0 30px 30px 0;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #ff6f00; /* Orange background for CTA */
+    color: #ffffff;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .send input[type="submit"]:hover {
-  background-color: #e65c00; /* Darker orange on hover */
-  transform: translateY(-2px); /* Slight lift effect on hover */
+    background-color: #e65c00; /* Darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
 .send input[type="submit"]:active {
-  transform: translateY(0); /* No lift effect on click */
+    transform: translateY(0); /* No lift effect on click */
 }
 
 
@@ -702,7 +702,6 @@ color: black;
 }
 
 .contact h1 {
-  text-decoration: wavy underline;
   font-size: 48px;
   color: #1c1c1c;
   margin-bottom: 15px;
@@ -953,7 +952,7 @@ body {
 }
 
 /* Box styles */
-.box {
+.box1 {
   background-color: #ffffff;
   color: #000000;
   box-shadow: 5px 5px 15px rgba(59, 55, 55, 0.5);
@@ -962,18 +961,18 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.box:hover {
+.box1:hover {
   transform: translateY(-5px);
   box-shadow: 8px 8px 20px rgba(59, 55, 55, 0.5);
 }
 
-.box h1 {
+.box1 h1 {
   font-size: 20px;
   color: #000000; /* Orange */
   margin-bottom: 15px;
 }
 
-.box p {
+.box1 p {
   font-size: 14px;
   line-height: 1.6;
 }
