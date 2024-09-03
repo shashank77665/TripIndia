@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Masters</title>
+    <title>Travel Man</title>
     <link rel="icon" href="./assets/files/logo.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
@@ -47,47 +47,33 @@
                 </form>
             </nav>
 
-            <div class="title">
-                <h1>Trip Masters</h1>
-                <p>Plan your trip with us and travel around the world with the most affordable packages!</p>
-
-                <div class="wrapper">
-                    <form action="#">
-                        <div class="h5 font-weight-bold text-center mb-3">Search your Destination</div>
-                        <div class="destination">
-                            <label for="city">Enter your destination</label>
-                        </div>
-                        <div class="form-group ">
-                            <input type="text" class="form-control" placeholder="Enter Your Name">
-                        </div>
-                        <div class="destination">
-                            <label for="city">Enter your date</label>
+            <div class="search-section">
+                <h1 class="site-title">Welcome to Travel Man</h1>
+                <p class="tagline">Plan your trip with us and travel around the world with the most affordable packages!</p>
+            
+                <div class="search-wrapper">
+                    <h2 class="search-title">Find Your Perfect Destination</h2>
+                    <form class="search-form" action="#">
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <input type="text" id="destination" class="form-control" placeholder="Enter Destination">
                         </div>
                         <div class="form-group">
-                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" class="form-control">
+                        </div>
+                        <div class="form-group price-group">
+                            <label for="price-range">Max Price: <span id="price-value">2500</span></label>
+                            <input type="range" id="price-range" min="0" max="10000" value="2500">
                         </div>
                         <div class="form-group">
-                            <div class="lable_total flex">
-                                <label class="destination" for="price">Max Price : <span id="result">2500</span>
-                                </label>
-                            </div>
-                            <input id="mySlider" type="range" min="0" max="10000" value="2500">
-
-                            <script>
-                                mySlider.oninput = showSliderValue;
-                                function showSliderValue() {
-                                    result.innerText = this.value;
-                                }
-                            </script>
+                            <button type="submit" class="search-btn">Search Now</button>
                         </div>
                     </form>
                 </div>
-
-                <a href="./booking.html" class="button">
-                    <span class="material-symbols-outlined">
-                        how_to_reg
-                    </span>
-                </a>
+            </div>
+            
+            
             </div>
         </div>
     </div>
@@ -405,300 +391,251 @@
 
     <!-- FAQ;s -->
 
-    <section><br>
+    <section>
         <div class="destination-title">
             <h2>Best Destinations to Visit in India</h2>
         </div>
         <div class="container1">
-            <style>
-                .destination-title {
-                    text-align: center;
-                }
-
-                .container1 {
-                    display: grid;
-                    position: relative;
-                    grid-template-columns: auto auto auto;
-                    background: color #f6f1f1;
-                    padding: 48px;
-                    font-size: 12px;
-                    gap: 10px;
-                    margin-top: 5px;
-                    margin-left: 100px;
-                    margin-right: 100px;
-                    margin-bottom: 1px;
-
-                    .loc-detail li {
-                        font-size: 10px;
-                        color: black;
-                        margin-left: 15px;
-                        margin-bottom: 2px;
-                        list-style-type: circle;
-                    }
-
-                    .box {
-                        background: inherit;
-                        color: black;
-                        box-shadow: 5px 5px 10px #3b3737;
-                        padding: 5px;
-                        border-radius: 15px;
-                    }
-                }
-            </style>
-
-            <div class="box">
+            <div class="box1">
                 <h1>Goa</h1>
-                <p>The unofficial party place of India, Goa is more than that. It has a great legacy, history and
-                    culture that are yet to be explored. But if beaches are what you are looking for, then the state
-                    has that too. And that's why, India tours to Goa are a great option to explore the place,
-                    according to your interests. Goa holiday packages are also popular because Goa is one of the top
-                    places in the world when it comes to nightlife. Find several exciting tour packages and other
-                    India holiday packages that let you try Goa's melange of watersports and other fun activities.
-                    <br>
-                    <br><b>Best time to visit :</b> November to February <br>
-
-                    <br> <b>Best places to visit:</b>
+                <p>The unofficial party place of India, Goa is more than that. It has a great legacy, history, and
+                    culture that are yet to be explored. If beaches are what you are looking for, then Goa has plenty
+                    to offer. Goa holiday packages are also popular because it's one of the top places in the world
+                    for nightlife.</p>
+                <b>Best time to visit:</b> November to February <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
                     <li>Calangute</li>
                     <li>Baga</li>
                     <li>Anjuna</li>
-                    <li> Miramar</li>
-                    <li> Palolem</li>
-                    <li> Panjim</li>
+                    <li>Miramar</li>
+                    <li>Palolem</li>
+                    <li>Panjim</li>
                 </ul>
-
-                <br> You can also include the offbeat Patnem Beach in your holiday tour packages, since it was
-                listed amongst one of Asia's top 20 beaches.
-                </p>
             </div>
-
-            <div class="box">
-                <h1>
-                    Kerala
-                </h1>
-                <p>God's own country, Kerala has been a popular tourist destination in India. You can explore it all
-                    with India tours to this marvellous destination. With suitable tour packages, you can discover
-                    scenic seaside destinations and hill stations in Kerala. <br>
-                    <br> <b>Best time to visit:</b> September to March <br>
-
-                    <br> <b>Best places to visit:</b>
+    
+            <div class="box1">
+                <h1>Kerala</h1>
+                <p>God's own country, Kerala, has been a popular tourist destination in India. Explore scenic seaside
+                    destinations and hill stations with the right tour packages. Don't miss out on Kerala's
+                    lip-smacking cuisine as well.</p>
+                <b>Best time to visit:</b> September to March <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
                     <li>Sree Padmanabhaswamy Temple</li>
-                    <li> Francis CSI Church</li>
-                    <li> Paradesi Synagogue</li>
-                    <li> Eravikulam National Park
-                        Varkala Beach</li>
+                    <li>Francis CSI Church</li>
+                    <li>Paradesi Synagogue</li>
+                    <li>Eravikulam National Park</li>
+                    <li>Varkala Beach</li>
                     <li>Athirappilly Waterfalls</li>
                 </ul>
-                <br>
-
-                <br>
-                If you are planning India holiday packages in the state, then you must not miss out on its
-                lip-smacking cuisine as well. Check your holiday tour packages and book accordingly.</p>
-
             </div>
-
-            <div class="box">
+    
+            <div class="box1">
                 <h1>Kashmir</h1>
-                <p>
-                    For decades, the Kashmir valley has attracted tourists from all over the world. If you can't
-                    plan a vacation on your own, you should check out India tours for Kashmir to help you with an
-                    unforgettable holiday. With the right all India tour packages, you can discover lush green
-                    valleys, snow-covered peaks and gorgeous wildlife. Your trip packages must include the Chenab,
-                    Sindh and Lidder valleys. Don't forget to buy a world-famous Kashmiri shawl and one-of-a-kind
-                    handicrafts for your loved ones. <br>
-                    <br> <b> Best Time to Visit:</b> March to August <br>
-
-                    <br> Best Places to Visit: <br>
+                <p>The Kashmir valley has attracted tourists from all over the world for decades. Discover lush green
+                    valleys, snow-covered peaks, and gorgeous wildlife. Your trip should include the Chenab, Sindh, and
+                    Lidder valleys. Don't forget to buy a world-famous Kashmiri shawl and handicrafts.</p>
+                <b>Best time to visit:</b> March to August <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
                     <li>Gulmarg</li>
-                    <li> Srinagar</li>
-                    <li> Dal Lake</li>
-                    <li> Sonamarg</li>
-                    <li> Indira Gandhi Tulip Garden</li>
+                    <li>Srinagar</li>
+                    <li>Dal Lake</li>
+                    <li>Sonamarg</li>
+                    <li>Indira Gandhi Tulip Garden</li>
                 </ul>
-                <br>
-                <br> These places should be included in the best tour packages for Kashmir. Find travel packages to
-                suit all needs and you can also find exquisite honeymoon packages, since Kashmir is an ethereal
-                destination for a picture-perfect Indian honeymoon.</p>
             </div>
-
-            <div class="box">
+    
+            <div class="box1">
                 <h1>Sikkim</h1>
-                <p>If you are looking for an Indian destination that is fit for a world tour package, then look no
-                    further than Sikkim. You can plan amazing India tours to this mountain marvel, which is home to
-                    the country's highest peak, Kanchenjunga. It is certainly a great destination for quality
-                    international tour packages. Check out Sikkim tour packages for a trip to this charming Indian
-                    state. <br>
-                    <br> <b>Best Time to Visit:</b> March to May <br>
-
-                    <br> Best Places to Visit:
+                <p>Sikkim is a mountain marvel, home to the country's highest peak, Kanchenjunga. Plan amazing India
+                    tours to this charming state, perfect for quality international tour packages.</p>
+                <b>Best time to visit:</b> March to May <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
-                    <li> Gangtok</li>
-                    <li> Nathu La Pass</li>
-                    <li> Tsomgo Lake</li>
-                    <li> Rumtek Monastery</li>
+                    <li>Gangtok</li>
+                    <li>Nathu La Pass</li>
+                    <li>Tsomgo Lake</li>
+                    <li>Rumtek Monastery</li>
                 </ul>
-                </p>
             </div>
-
-            <div class="box">
+    
+            <div class="box1">
                 <h1>Shimla</h1>
-                <p> Shimla, the Queen of the Hills, is the stuff that dreamy India tours are made of! Shimla is a
-                    great
-                    destination for international honeymoon packages, with its pristine landscape, mountains,
-                    greenery
-                    and romantic weather. A Shimla tour also means checking out the delightful cafes and eateries
-                    here. <br>
-
-                    <br> <b>Best Time to Visit:</b> May to June/December to January <br>
-
-                    <br> Best Places to Visit:
+                <p>Shimla, the Queen of the Hills, is a great destination for international honeymoon packages with its
+                    pristine landscape, mountains, greenery, and romantic weather.</p>
+                <b>Best time to visit:</b> May to June/December to January <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
                     <li>The Ridge</li>
-                    <li> Green Valley</li>
-                    <li> Mall Road</li>
-                    <li> Jakhoo Hill</li>
+                    <li>Green Valley</li>
+                    <li>Mall Road</li>
+                    <li>Jakhoo Hill</li>
                 </ul>
-                </p>
             </div>
-
-            <div class="box">
-                <h1> Uttarakhand</h1>
-                <p> There are many India tours which keep Uttarakhand at the forefront and why not? The state is
-                    blessed with unmatched natural beauty. Find Uttarakhand tour packages covering several popular
-                    destinations. The state offers the right mix of spirituality, trekking, adventure, beautiful
-                    mountain landscapes and welcoming locals. <br>
-
-                    <br> <b> Best time to visit:</b> March to April/September to October <br>
-
-                    <br> Best places to visit:
+    
+            <div class="box1">
+                <h1>Uttarakhand</h1>
+                <p>Uttarakhand is blessed with unmatched natural beauty. The state offers a mix of spirituality,
+                    trekking, adventure, and beautiful mountain landscapes. Discover popular destinations with the
+                    right tour packages.</p>
+                <b>Best time to visit:</b> March to April/September to October <br>
+                <b>Best places to visit:</b>
                 <ul class="loc-detail">
-                    <li> Dehradun</li>
-                    <li> Mussoorie</li>
-                    <li> Nainital</li>
-                    <li> Auli</li>
-                    <li> Rishikesh</li>
+                    <li>Dehradun</li>
+                    <li>Mussoorie</li>
+                    <li>Nainital</li>
+                    <li>Auli</li>
+                    <li>Rishikesh</li>
                 </ul>
-                </p>
-
             </div>
         </div>
     </section>
 
+    <!--  -->
+    
     <section class="faq">
-
         <div class="container2">
-            <style>
-                .container2 {
-                    position: relative;
-                    grid-template-columns: auto auto auto;
-                    gap: 5%;
-                    padding: 35px;
-                    margin-top: 50px;
-                    margin-left: 35px;
-                    margin-right: 34px;
-                    border-radius: 10px;
-                    font-size: 12px;
-                    color: black;
-                    background-color: white;
-                    box-shadow: 5px 5px 10px #3b3737;
-                }
-            </style>
-
-            <div> <br>
-                <h1 class="faqh1">FAQs - Frequently Asked Questions</h1>
+            <div class="faq-header">
+                <h1 class="faq-title">FAQs - Frequently Asked Questions</h1>
             </div>
-
-            <p><br>
-            <h3> What kind of destinations can I choose for travelling?</h3> <br>
-            <p> You can choose any destination for travel as per your mood. For an action-packed holiday, you can choose
-                wildlife, trekking and other adventurous destinations. For a romantic holiday with your special someone,
-                you can choose from a range of couple-friendly destinations. You can also choose the kind of holiday you
-                want based on the destination you like—whether hills, mountains, beaches, heritage or pilgrimage sites.
-            </p><br>
+    
+            <div class="faq-item">
+                <h3>What kind of destinations can I choose for traveling?</h3>
+                <p>You can choose any destination for travel as per your mood. For an action-packed holiday, you can choose
+                    wildlife, trekking, and other adventurous destinations. For a romantic holiday with your special someone,
+                    you can choose from a range of couple-friendly destinations. You can also choose the kind of holiday you
+                    want based on the destination you like—whether hills, mountains, beaches, heritage, or pilgrimage sites.
+                </p>
+            </div>
             <hr>
-
-            <br>
-            <h3> Can I opt for a budget-friendly holiday?</h3><br>
-            <p>
-                Yes, you can. All you have to do is set an approximate expenditure amount in your mind before starting
-                exploring the ideas here. You can search for a suitable destination for your travel in any range from
-                Rs. 10,000 to Rs. 50,000. It is advisable to make all the bookings in advance in order to avoid change
-                in prices.</p><br>
+    
+            <div class="faq-item">
+                <h3>Can I opt for a budget-friendly holiday?</h3>
+                <p>Yes, you can. All you have to do is set an approximate expenditure amount in your mind before starting
+                    exploring the ideas here. You can search for a suitable destination for your travel in any range from
+                    Rs. 10,000 to Rs. 50,000. It is advisable to make all the bookings in advance in order to avoid changes
+                    in prices.</p>
+            </div>
             <hr>
-
-            <br>
-            <h3> Which time of the year is best suited for booking a holiday?</h3><br>
-            <p>x
-                Holidays can be booked throughout the year. You only need to select the month in which you are planning
-                to travel. Our curated list of ideas is designed in such a way that you will be able to see only those
-                destinations which are most suitable for that particular month of the year. If you select a combination
-                of filters defining your month, budget and purpose of travel, you will get the appropriate destination
-                name and other details.</p><br>
+    
+            <div class="faq-item">
+                <h3>Which time of the year is best suited for booking a holiday?</h3>
+                <p>Holidays can be booked throughout the year. You only need to select the month in which you are planning
+                    to travel. Our curated list of ideas is designed in such a way that you will be able to see only those
+                    destinations which are most suitable for that particular month of the year. If you select a combination
+                    of filters defining your month, budget, and purpose of travel, you will get the appropriate destination
+                    name and other details.</p>
+            </div>
             <hr>
-
-            <br>
-            <h3>What all will I get in a holiday idea?</h3>
-            <p>Once you choose a destination, it will give you complete details of all the unique things about that
-                place that must not be missed, including most visited local sites, best places to stay and all the
-                memorable experiences that you can indulge in. You will be given multiple options of hotels, resorts and
-                guest houses to choose from depending on your budget. </p> <br>
-            <hr>
-            </p>
+    
+            <div class="faq-item">
+                <h3>What all will I get in a holiday idea?</h3>
+                <p>Once you choose a destination, it will give you complete details of all the unique things about that
+                    place that must not be missed, including the most visited local sites, best places to stay, and all the
+                    memorable experiences that you can indulge in. You will be given multiple options of hotels, resorts, and
+                    guest houses to choose from depending on your budget.</p>
+            </div>
         </div>
     </section>
+    
 
     <!-- Newsletter -->
 
     <section class="newsletter">
         <div class="newstext">
-            <h2>Newsletter</h2>
-            <p>Subscribe to get offers and latest<br>updates every week!</p>
+            <h2>Stay Updated</h2>
+            <p>Join our newsletter for exclusive offers and the latest updates delivered straight to your inbox!</p>
         </div>
-
+    
         <div class="send">
             <form action="">
-                <input type="email" name="emailid" placeholder="E-mail" required>
+                <input type="email" name="emailid" placeholder="Enter your email" required>
                 <input type="submit" value="Subscribe">
             </form>
         </div>
     </section>
-
+    
+    
+    <section class="map-section">
+        <div class="map-container">
+            <h2>Discover Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d132936.43169351062!2d76.13708989726564!3d10.004001700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d460437c265%3A0xb6659e2fd8e3e33c!2sTravel%20Trip%20India!5e1!3m2!1sen!2sin!4v1725293724913!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    
+    
+    <section class="special-offers">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <div class="offer-box">
+                <img src="./assets/img/box22.jpeg" alt="Offer 1">
+                <h4>50% Off on Bali Packages</h4>
+                <p>Book now and get 50% off on our exclusive Bali travel packages. Limited time offer!</p>
+                <a href="./offers.html#bali">Grab the Offer</a>
+            </div>
+            <div class="offer-box">
+                <img src="./assets/img/box11.png" alt="Offer 2">
+                <h4>Free E-Visa with Egypt Packages</h4>
+                <p>Travel to Egypt hassle-free with our free E-Visa offer on all Egypt travel packages.</p>
+                <a href="./offers.html#egypt">Grab the Offer</a>
+            </div>
+            <div class="offer-box">
+                <img src="./assets/img/box.jpeg" alt="Offer 3">
+                <h4>25% Off on European Tours</h4>
+                <p>Explore Europe like never before with our 25% discount on all European tour packages.</p>
+                <a href="./offers.html#europe">Grab the Offer</a>
+            </div>
+        </div>
+    </section>
+    
+  
+    
     <!-- Footer -->
 
     <section class="footer">
-        <div class="foot">
+        <div class="footer-container">
             <div class="footer-content">
-
-                <div class="footlinks">
+                <div class="footer-column">
                     <h4>Quick Links</h4>
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="./booking.html">Register</a></li>
                         <li><a href="./info.html">About Us</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-
-                <div class="footlinks">
-                    <h4>Connect</h4>
-                    <div class="social">
-                        <a href="https://www.facebook.com/profile.php?id=100007787415175" target="_blank"><i
-                                class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+    
+                <div class="footer-column">
+                    <h4>Connect with Us</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" aria-label="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Twitter">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dhirendra-kumar-gupta-10811621b/" target="_blank" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/DK-Gupta" target="_blank" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
                     </div>
                 </div>
-
+            </div>
+    
+            <div class="footer-bottom">
+                <p>© 2024 Trip Masters. All Rights Reserved.</p>
             </div>
         </div>
-
-        <div class="end">
-            <p>Copyright © 2024 Trip Masters All Rights Reserved.<br>Website developed by: Owners</p>
-        </div>
     </section>
+    
     <SCRIPT type="text/javascript">
         function JavaBlink() {
             var blinks = document.getElementsByTagName('JavaBlink');
